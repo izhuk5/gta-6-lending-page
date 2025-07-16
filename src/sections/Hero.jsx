@@ -14,7 +14,6 @@ const Hero = () => {
     });
 
     gsap.set('.mask-logo', { marginTop: '-100vh', opacity: 0 });
-
     gsap.set('.entrance-message', { marginTop: '0vh' });
 
     const tl = gsap.timeline({
